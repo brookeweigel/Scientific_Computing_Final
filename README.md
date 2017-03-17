@@ -15,7 +15,8 @@ Before using the MAFFT command line wrapper, you will need to download MAFFT her
 
 Before using the raxml command line wrapper, you will need to download the raxml program here: https://github.com/stamatak/standard-RAxML
 
-For the R code, you will need the Bioconductor package gg tree (https://bioconductor.org/packages/release/bioc/html/ggtree.html). 
+For the R code, you will need the Bioconductor package gg tree 
+(https://bioconductor.org/packages/release/bioc/html/ggtree.html). 
 To download gg tree, start R and enter the following: 
        
        ## try http:// if https:// URLs are not supported    
