@@ -1,5 +1,5 @@
 
-# Intro to Scientific Computing for Biologists (ECEV 32000), Final Project
+# Scientific Computing for Biologists (ECEV 32000), Final Project
 
 This repository contains the scripts and data files for my scientific computing final project. This project has two components. The first part is written in Python using Jupyter Notebooks. This code **1)** uses Biopython modules to find and download sequences from NCBI as a FASTA file, **2)** aligns the sequences with a command line wrapper for the multiple alignment program MAFFT, **3)** constructs a Maximum Likelihood phylogenetic tree using the RAxML (Randomized Axelerated Maximum Likelihood) command line wrapper, and **4)** visualizes the phylogeny in Python using the Bio.Phylo module. This code is contained in the file *Biopython_Phylogeny.ipynb*.
 
