@@ -9,10 +9,13 @@ About the sequences used in this example:
 
 The phylum Nitrospirae contains the genus Nitrospira, which are chemolithoautotrophic nitrite-oxidizing bacteria. In this example, we have a DNA sequence for the beta subunit of the nitrite oxidoreductase gene (NxrB). This gene codes for a protein that catalyzes the second step of microbial nitrification, or nitrite (NO2-) oxidation to nitrate (NO3-). The NxrB DNA sequence for this project was obtained from a metagenome-assembled genome (MAG) of a putative Nitrospirae bacterium from the Laurentian Great Lakes. We do not know how this Nitrospirae MAG is related to other nitrite-oxidizing bacteria. To determine the relationship of this bacterium to other Nitrospirae, this code will construct a phylogeny with our Great Lakes Nitrospirae sequence and 85 Nitrospira NxrB DNA sequences from Pester et al. 2014 (Environmental Microbiology 16: 3055–3071). 
 
-Note on downloading MAFFT and RAxML:
+Note on downloading MAFFT, RAxML and ggtree:
 
 Before using the MAFFT command line wrapper, you will need to download MAFFT here: http://mafft.cbrc.jp/alignment/software/
 
 Before using the raxml command line wrapper, you will need to download the raxml program here: https://github.com/stamatak/standard-RAxML
 
-
+For the R code, you will need the Bioconductor package gg tree. To download gg tree, start R and enter the following: 
+       ## try http:// if https:// URLs are not supported
+       source("https://bioconductor.org/biocLite.R")
+       biocLite("ggtree")
